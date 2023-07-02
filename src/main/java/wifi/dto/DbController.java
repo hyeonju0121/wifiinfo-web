@@ -35,7 +35,6 @@ public class DbController {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     public static int selectCnt() throws SQLException {
